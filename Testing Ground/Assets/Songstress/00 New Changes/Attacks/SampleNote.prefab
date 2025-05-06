@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4405708237399209669}
   - component: {fileID: 179045280807691422}
   - component: {fileID: 7294148741007577310}
-  - component: {fileID: -3759552155363154742}
+  - component: {fileID: -5477626235318955952}
   m_Layer: 7
   m_Name: SampleNote
   m_TagString: Untagged
@@ -153,7 +153,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.002781704}
   m_Radius: 0.24508773
---- !u!114 &-3759552155363154742
+--- !u!114 &-5477626235318955952
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -162,7 +162,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 6334825178695707446}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55eeacfb497a0db4d952fb10129cfa39, type: 3}
+  m_Script: {fileID: 11500000, guid: 4d83cae41457cf4499def3a71056cfd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy: {fileID: 5848987341399037565, guid: ef0211cc1d34ea1468e90bc8e29d76e1, type: 3}
