@@ -77,7 +77,7 @@ public class poolManager : MonoBehaviour
     public static void ReturnObjectToPool(GameObject obj)
     {
 
-        string cloneRemover = obj.name.Substring(0, obj.name.Length -7);
+        string cloneRemover = obj.name.Replace("(Clone)", string.Empty);
         PooledObjectDetect pool = ObjectPools.Find(p => p.LookupString == cloneRemover);
         
         if(pool == null)

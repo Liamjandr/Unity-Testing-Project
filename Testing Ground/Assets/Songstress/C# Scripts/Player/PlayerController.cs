@@ -13,14 +13,14 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.U))
-        {
-            animator.SetBool("AttackState", true);
-            Debug.Log("attacking");
-        }
-        else
-        {
-            animator.SetBool("AttackState", false);
-        }
+        //if (Input.GetKey(KeyCode.U))
+        //{
+        //    animator.SetBool("AttackState", true);
+        //    Debug.Log("attacking");
+        //}
+        //else
+        //{
+        //    animator.SetBool("AttackState", false);
+        //}
     }
     }
